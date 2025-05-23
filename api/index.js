@@ -4,6 +4,8 @@ const app = express()
 const fs = require('fs')
 const path = require('path')
 const compression = require('compression')
+const serverless = require('serverless-http');
+
 
 
 
@@ -48,8 +50,5 @@ app.get('/api/posts/:id', (req,res)=>{
 })
 
 
-app.listen(3000, ()=>{
-    console.log("Server is Running!")
-})
-
-module.exports = serverless(app);
+module.exports = app;
+module.exports.handler = serverless(app);
