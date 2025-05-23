@@ -51,3 +51,5 @@ app.get('/api/posts/:id', (req,res)=>{
 app.listen(3000, ()=>{
     console.log("Server is Running!")
 })
+
+module.exports = app;
