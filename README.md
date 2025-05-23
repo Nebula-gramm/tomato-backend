@@ -7,3 +7,6 @@ _____
 ### Techologies
 - nodejs
 - express
+- vercel
+
+  ***This is Open source for Developer***
