@@ -1,5 +1,5 @@
 # The tomatoKing blogsite api endpoint
-A nodejs backend api endpoit for developing  blogsite. There has 10 blog contnet with array element.
+A nodejs backend api endpoint for developing  blogsite. There has 10 blog content with array element.
 
 _____
 ![screenshot](https://iili.io/3tBM7Nj.png)
