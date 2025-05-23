@@ -16,7 +16,7 @@ app.use(cors())
 
 
 
-const dataPath = path.join(__dirname,'data','post.json')
+const dataPath = path.join(__dirname, '..', 'data', 'post.json');
 
 //routes
 
